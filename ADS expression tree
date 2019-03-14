@@ -1,0 +1,81 @@
+Keep
+Notes
+MP4
+section .data
+	pmsg db 10 , "Assignment no. 4" , 
+		 db 10 , "Multiplcation of 16 bit numbers" , 
+		 db 10 , "(using successive addition and shift and add method)" , 
+		 pmsg_len equ $-pmsg
+		 
+menu db 10 , "Menu"
+	db 10 , "1. Multiplation by successive addition"  
+	db 10 , "2. multiplation by shift and add method"  
+	db 10 , "3. Exit"  …
+MP 3
+section .data
+
+pmsg db 10 , "****************Assignment No.3***************"
+    db 10 , "---------------------------------------------"
+    db 10 , "Conversion from HEX to BCD & BCD to HEX" , 10
+    db 10 , "---------------------------------------------"
+pmsg_len equ $-pmsg
+
+menu  db 10 , "*****MENU*****"
+    db 10 , "1.HEX to BCD"…
+prims
+ 
+
+#include <iostream>
+#define INF 999
+using namespace std;
+
+class graph{
+    int G[10][10] , nV , visited[10];
+public:
+    void readGraph();…
+Assignment 3
+section .data
+	pmsg db 10,"Assignment no.3"
+	db 10,"--------------------"
+	db 10,"conversion from hex to BCD and BCD to hex",10
+	pmsg_len equ $-pmsg
+menu db 10,"1. Hex o BCD"
+	 db 10,"2. BCD to Hex"
+	 db 10,"3. Exit"
+	 db 10,"Enter your choice"
+…
+Assignment 1 ML
+section .data
+nline db 10,10
+nline_len equ $nline
+space db""
+
+pmsg1 db " Assignment no. 2 "
+db 10,"-----------------------"
+db 10,"block transfer without string",
+db 10, "-----------------------",10
+pmsg1_len equ $-pmsg1…
+graph
+
+#include <iostream>
+using namespace std;
+
+typedef struct node{
+    int ver;
+    node *next;
+}NODE;
+
+class Graph{…
+LINK
+https://way2techin.blogspot.com/2017/04/se-comp-programs-cg-ads.html
+Assignment 1
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+
+class BinarySearchTree
+{
+    private:
+        struct tree_node
+        {
+           tree_node* left;…
